@@ -1,0 +1,63 @@
+{
+	"pagination": {
+		"beforeDate": "2017-03-27",
+		"limit": 1,
+		"next": "https://api.fitbit.com/1.2/user/-/sleep/list.json?offset=1&limit=1&sort=desc&beforeDate=2017-03-27",
+		"offset": 0,
+		"previous": "",
+		"sort": "desc"
+	},
+	"sleep": [{
+		"dateOfSleep": "2017-03-26",
+		"duration": 11104,
+		"efficiency": "aas",
+		"levels": {
+			"summary": {
+				"deep": {
+					"count": 7,
+					"minutes": 85,
+					"thirtyDayAvgMinutes": 99
+				},
+				"light": {
+					"count": 44,
+					"minutes": 40,
+					"thirtyDayAvgMinutes": 30
+				},
+				"rem": {
+					"count": 20,
+					"minutes": 25,
+					"thirtyDayAvgMinutes": 36
+				},
+				"wake": {
+					"count": 78,
+					"minutes": 20,
+					"thirtyDayAvgMinutes": 80
+				}
+			},
+			"data": [{
+					"datetime": "2017-03-25T23:58:30.000",
+					"level": "wake",
+					"seconds": 150
+				},
+				{
+					"datetime": "2017-03-26T00:16:30.000",
+					"level": "light",
+					"seconds": 110
+				}
+			],
+			"shortData": [{
+				"datetime": "2017-03-26T05:58:30.000",
+				"level": "wake",
+				"seconds": 120
+			}]
+		},
+		"logId": "weq",
+		"minutesAfterWakeup": 78,
+		"minutesAsleep": 5,
+		"minutesAwake": 10,
+		"minutesToFallAsleep": 25,
+		"startTime": "2017-03-25T23:58:30.000",
+		"timeInBed": 30,
+		"type": "stages"
+	}]
+}
